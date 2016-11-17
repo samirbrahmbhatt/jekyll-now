@@ -21,15 +21,23 @@ body {
 	background: $fresh;
   font: 18px/1.4 $helvetica;
   color: $clean;
-}
 
-.container {
+	
+ .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 720px;
   padding: 0 10px;
   width: 100%;
+	background-color: rgba(5,4,2,0.4);
 }
 
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: $vermillion;
+	opacity: 1.0;
+	
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
